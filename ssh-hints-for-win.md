@@ -46,3 +46,7 @@ ssh-add ~/.ssh/id_ed25519
 ![SSH for Win](./img/07.png "SSH-key for Windows")
 
 На вашу почту должно прийти письмо с подтверждением добавления ключа.
+
+При первом обращении к GitHub в терминале у вас спросят хотите ли продолжить, введите `yes` и нажмите `enter`:
+
+![SSH for Win](./img/08.png "SSH-key for Windows")
