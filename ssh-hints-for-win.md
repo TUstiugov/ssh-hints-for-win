@@ -11,14 +11,14 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ![SSH for Win](./img/01.png "SSH-key for Windows")
 
-После этого введите в терминале для запуска ssh-агента:
+После этого, для запуска ssh-агента, введите в терминале:
 ```bash
 eval "$(ssh-agent -s)"
 ```
 
 ![SSH for Win](./img/02.png "SSH-key for Windows")
 
-И последний шаг введите в терминале:
+И последний шаг, введите в терминале:
 ```bash
 ssh-add ~/.ssh/id_ed25519
 ```
